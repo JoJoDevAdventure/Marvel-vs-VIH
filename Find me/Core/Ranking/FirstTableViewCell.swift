@@ -12,7 +12,7 @@ class FirstTableViewCell: UITableViewCell {
     private lazy var usernameLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Username"
+        label.text = "Nom    "
         label.font = .systemFont(ofSize: 18, weight: .bold)
         label.textColor = .white
         return label
@@ -21,7 +21,7 @@ class FirstTableViewCell: UITableViewCell {
     private lazy var errorsLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Erorrs "
+        label.text = "Erreurs "
         label.font = .systemFont(ofSize: 18, weight: .bold)
         label.textColor = .white
         return label
@@ -30,7 +30,7 @@ class FirstTableViewCell: UITableViewCell {
     private lazy var timeLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "Time (s)"
+        label.text = "Temps (s)"
         label.font = .systemFont(ofSize: 18, weight: .bold)
         label.textColor = .white
         return label
