@@ -50,7 +50,11 @@ class ProgressionJaugeView: UIView {
     public func setupJaugeLevel(level: Int, totalLevels: Int) {
         print(level)
         print(totalLevels)
-        progressionView.widthAnchor.constraint(equalTo: widthAnchor, multiplier: CGFloat(Float(level) / Float(totalLevels)) ).isActive = true
+        if level == totalLevels {
+            progressionView.widthAnchor.constraint(equalTo: widthAnchor).isActive = true
+        } else {
+            progressionView.widthAnchor.constraint(equalTo: widthAnchor, multiplier: CGFloat(Float(level) / Float(totalLevels)) ).isActive = true
+        }
     }
 
 }
