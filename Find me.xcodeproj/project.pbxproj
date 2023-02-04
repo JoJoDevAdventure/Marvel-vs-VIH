@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A3204BE929360CC800189F70 /* ErrorTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3204BE829360CC800189F70 /* ErrorTouchView.swift */; };
+		A32E2E7729CC92C800F9AF27 /* LevelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E2E7629CC92C800F9AF27 /* LevelsViewModel.swift */; };
 		A3396C0C2934A07A005DE2BB /* CustomGradButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3396C0B2934A07A005DE2BB /* CustomGradButton.swift */; };
 		A3396C0E2934A871005DE2BB /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3396C0D2934A871005DE2BB /* MainViewModel.swift */; };
 		A3396C1A2934AC4C005DE2BB /* LevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3396C192934AC4C005DE2BB /* LevelsViewController.swift */; };
@@ -16,7 +17,6 @@
 		A3396C202934B6D0005DE2BB /* NSLayoutConstraints+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3396C1F2934B6D0005DE2BB /* NSLayoutConstraints+Util.swift */; };
 		A3396C222934BF40005DE2BB /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3396C212934BF40005DE2BB /* Level.swift */; };
 		A3396C242934C188005DE2BB /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3396C232934C188005DE2BB /* Data.swift */; };
-		A3396C262934ED1A005DE2BB /* LevelsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3396C252934ED1A005DE2BB /* LevelsViewModel.swift */; };
 		A3396C2829352FE5005DE2BB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3396C2729352FE5005DE2BB /* GameViewController.swift */; };
 		A3711F5E2930ACF400AACEA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3711F5D2930ACF400AACEA6 /* AppDelegate.swift */; };
 		A3711F602930ACF400AACEA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3711F5F2930ACF400AACEA6 /* SceneDelegate.swift */; };
@@ -59,6 +59,7 @@
 
 /* Begin PBXFileReference section */
 		A3204BE829360CC800189F70 /* ErrorTouchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorTouchView.swift; sourceTree = "<group>"; };
+		A32E2E7629CC92C800F9AF27 /* LevelsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsViewModel.swift; sourceTree = "<group>"; };
 		A3396C0B2934A07A005DE2BB /* CustomGradButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradButton.swift; sourceTree = "<group>"; };
 		A3396C0D2934A871005DE2BB /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		A3396C192934AC4C005DE2BB /* LevelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsViewController.swift; sourceTree = "<group>"; };
@@ -67,7 +68,6 @@
 		A3396C1F2934B6D0005DE2BB /* NSLayoutConstraints+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraints+Util.swift"; sourceTree = "<group>"; };
 		A3396C212934BF40005DE2BB /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 		A3396C232934C188005DE2BB /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		A3396C252934ED1A005DE2BB /* LevelsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LevelsViewModel.swift; path = ../../../../../../../Documents/LevelsViewModel.swift; sourceTree = "<group>"; };
 		A3396C2729352FE5005DE2BB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A3711F5A2930ACF400AACEA6 /* Find me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Find me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3711F5D2930ACF400AACEA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -202,7 +202,7 @@
 		A3396C142934AAA1005DE2BB /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				A3396C252934ED1A005DE2BB /* LevelsViewModel.swift */,
+				A32E2E7629CC92C800F9AF27 /* LevelsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -477,8 +477,8 @@
 				A382ED7F293983CB00F64568 /* ScorePopUp.swift in Sources */,
 				A3711F602930ACF400AACEA6 /* SceneDelegate.swift in Sources */,
 				A3396C242934C188005DE2BB /* Data.swift in Sources */,
-				A3396C262934ED1A005DE2BB /* LevelsViewModel.swift in Sources */,
 				A3396C2829352FE5005DE2BB /* GameViewController.swift in Sources */,
+				A32E2E7729CC92C800F9AF27 /* LevelsViewModel.swift in Sources */,
 				A3396C1C2934B4AB005DE2BB /* UICollectionView+Util.swift in Sources */,
 				A382ED7B29397FD800F64568 /* RankingViewController.swift in Sources */,
 				A3396C202934B6D0005DE2BB /* NSLayoutConstraints+Util.swift in Sources */,
