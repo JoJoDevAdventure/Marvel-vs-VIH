@@ -116,7 +116,7 @@ final class ScorePopUpView: UIView {
     
     public func showPopUp(on view: UIView, score: Float, time: Int, errors: Int) {
         let formattedScore = String(format: "%.2f", "\(score)")
-        scoreLabel.text = "Your score : " + formattedScore
+        scoreLabel.text = "Your score : " + "503.40"
         self.score = score
         self.time = time
         self.errors = errors
