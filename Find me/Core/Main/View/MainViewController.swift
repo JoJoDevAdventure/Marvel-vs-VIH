@@ -81,7 +81,7 @@ class MainViewController: UIViewController {
             ranks.topAnchor.constraint(equalTo: levelsButton.bottomAnchor, constant: 30),
             
             logoImage.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            logoImage.topAnchor.constraint(equalTo: view.topAnchor, constant: 150),
+            logoImage.topAnchor.constraint(equalTo: view.topAnchor, constant: 200),
             logoImage.widthAnchor.constraint(equalToConstant: 250),
             logoImage.heightAnchor.constraint(equalToConstant: 100)
         ]
